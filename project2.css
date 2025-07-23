@@ -181,4 +181,42 @@ margin-top:2vh;
   min-width: 400px;
 }
  }
+ @media screen and (min-width:0px) and (max-width:449px){
+  section{
+    width:100%;
+  }
+  .heading{
+    font-size: 12px;
+  }
+  section>div{
+    margin-top:3vh;
+  }
+  form{
+    min-width: 320px;
+    align-items:unset;
+  }
+  .set{
+    margin-top: 20px;
+    align-items: flex-end;
+  }
+  input{
+    width:55px;
+    margin-left: 10px;
+  }
+  
+  label{
+    font-size: 20px;
+    margin-left:15px;  
+  }
+  button{
+    margin-top: 15px;
+    min-width: 110px;
+  }
+  table{
+    min-width: 300px;
+  }
+  nav ul{
+    justify-content: space-between;
+  }
+ }
 
