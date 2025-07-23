@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  height: auto;
+  margin: 5vh 5vw 0 5vw;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 14px;
+  background-color: #f8f8f8;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  column-gap:5vw;
+}
+
+nav ul li {
+  font-size: 18px;
+}
+section{
+  display:flex;
+  flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ 
+}
+section>div{
+  margin-top: 5vh;
+}
+h1{
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+form{
+  display:flex;
+  flex-direction: column;
+ border:2px solid black;
+ width:35vw;
+ height:30vh;
+ align-items: center;
+}
+label{
+  margin-top:3vh;
+  font-size: 2em;
+  text-align: center; 
+}
+input{
+width:5vw;
+height:4vh;
+text-align: center;
+}
+
+.set{
+  display:flex;
+  align-items:flex-end;
+}
+button{
+  width: 10vw;
+  height:5vh;
+  font-size: 0.7em;
+border:2px solid black;
+border-radius: 11px;
+}
+#result{
+  font-size: 2em;
+  margin-top: 2vh;
+  padding: 0;
+}
+.info{
+  margin-top:2vh;
+  padding: 0;
+}
+table{
+  border:2px solid black;
+  width:25vw;
+  
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+td{
+  border:2px solid black;
+  padding:10px;
+}
+ @media screen and (min-width:1441px){
+  header{
+    max-width: 2284px;
+    margin:auto;
+  }
+  section{
+    width:100%;
+  }
+  form{
+    max-width:780px;
+  }
+  table{
+    max-width:670px;
+  }
+  button{
+    max-width: 196px;
+  }
+  input{
+    max-width: 145px;
+  }
+ }
+ @media screen and (min-width:770px) and (max-width:1440px){
+  section{
+    width:100%;
+  }
+  .heading{
+    font-size: 20px;
+  }
+  section>div{
+    margin-top: 3vh;
+  }
+  form{
+   min-width: 600px;
+  }
+  input{
+    min-width:120px;
+    margin-left: 1vw;
+    font-size: 18px;
+  }
+  .set{
+    margin-top: 2vh;
+  }
+  button{
+    min-width:202px;
+  }
+  table{
+    min-width: 514px;
+    margin-top:3vh;
+  }
+  .info{
+    margin: 0;
+    padding: 0;
+  }
+ }
+ @media screen and (min-width:450px) and (max-width:769px){
+ .heading{
+  font-size: 12px;
+ }
+ section{
+  width:100%;
+ }
+ section>div{
+  margin-top: 2vh;
+ }
+ form{
+  min-width: 370px;
+ }
+ .set{
+  margin:20px;
+ }
+ label{
+  margin-top: 1vh;
+  font-size: 23px;
+ }
+ input{
+  min-width:45px;
+  margin-left:1vw;
+ }
+ button{
+  margin-top: 20px;
+  min-width: 140px;
+ }
+table{
+margin-top:2vh;
+  min-width: 400px;
+}
+ }
+
