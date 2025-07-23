@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="project2.css">
+    <script src="project2.js" defer></script>
+</head>
+<body>
+     <header>
+        <nav class="navbar">
+            <ul class="containr">
+            <li class="content">home</li>
+            <li class="content">about</li>
+            <li class="content">contact</li>
+            <li class="content">login</li>
+        </ul>
+        </nav>
+    </header>
+    <section>
+    <div class="heading">
+        <h1 >BMI CALCULATOR</h1>
+    </div>
+    <div class="container">
+        <form  id="bmi">
+            <div class="set">
+<label for="kg">
+               Enter Your Weight(in kg): </label>
+               <input type="text"   name="weigh" id="kg" required>
+            </div>
+           <div class="set">
+            <label for="metre">
+               Enter Your Height(in m ):
+            </label>
+            <input type="text"  name="height" id="metre" required>
+           </div>
+           
+             <label for="submit">
+                 <button id="submit" type="submit">Calculate BMI</button>  
+            </label> 
+                
+            </form>
+        </div>
+        <div id="result"></div>
+        <div class="info">
+            <table>
+  <tr>
+    <th>BMI Range</th>
+    <th>Category</th>
+
+  </tr>
+  <tr>
+    <td>less than 18</td>
+    <td> UnderWeight</td>
+    
+  </tr>
+  <tr>
+    <td>18.5-24.9</td>
+    <td>Normal</td>
+  </tr>
+  <tr>
+    <td>25.9-29.9</td>
+    <td>OverWeight</td>
+  </tr>
+  <tr>
+    <td>30-34.9</td>
+    <td>Obese(class 1)</td>
+  </tr>
+  <tr>
+    <td>35-39.9</td>
+    <td>Obese(Class 2)</td>
+  </tr>
+  <tr>
+    <td>>=40</td>
+    <td>Obese(Class 3)</td>
+  </tr>
+</table>
+        </div>
+         </section>
+
+</body>
+</html>
